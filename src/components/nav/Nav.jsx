@@ -38,13 +38,13 @@ function Navbar() {
                         <Link className='navbar_link' to='about' spy={true} smooth={true} offset={0} duration={500} onClick={handleShowLinks}>About</Link>
                     </li>
                     <li className='navbar_item slideInDown-3'>
-                        <Link className='navbar_link' to='design' spy={true} smooth={true} offset={0} duration={500} onClick={handleShowLinks}>Experience</Link>
+                        <Link className='navbar_link' to='experience' spy={true} smooth={true} offset={0} duration={500} onClick={handleShowLinks}>Experience</Link>
                     </li>
                     <li className='navbar_item slideInDown-4'>
-                        <Link className='navbar_link' to='space' spy={true} smooth={true} offset={0} duration={500} onClick={handleShowLinks}>Portfolio</Link>
+                        <Link className='navbar_link' to='portfolio' spy={true} smooth={true} offset={0} duration={500} onClick={handleShowLinks}>Portfolio</Link>
                     </li>
                     <li className='navbar_item slideInDown-5'>
-                        <Link className='navbar_link' to='residential' spy={true} smooth={true} offset={0} duration={500} onClick={handleShowLinks}>Interests</Link>
+                        <Link className='navbar_link' to='interests' spy={true} smooth={true} offset={0} duration={500} onClick={handleShowLinks}>Interests</Link>
                     </li>
                     <li className='navbar_item slideInDown-6'>
                         <Link className='navbar_link' to='contact' spy={true} smooth={true} offset={0} duration={500} onClick={handleShowLinks}>Contact</Link>
