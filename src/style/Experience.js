@@ -18,8 +18,10 @@ export const Card = styled.div`
 background-color: ${colors.primary};
 border-radius: 10px 10px 10px 10px;
 &:hover{
-    background-color: white;
+    background-color: transparent;
     color: ${colors.primary};
+    font-weight: 800;
+    border: 1px solid ${colors.primary};
 }
 `
 export const MainTitleCard = styled.p`
