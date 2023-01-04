@@ -19,15 +19,28 @@ gap: 3rem;
 padding-top: 20px;
 border: none;
 `
-export const ButtonHome = styled.a`
+export const LinkHome = styled.a`
 background-color: black;
 color: white;
 font-size: 25px;
 padding: 15px;
 border-radius: 15px 15px 15px 15px;
+
 &:hover{
     background-color: white;
     color: black;
     cursor: pointer;
 }
 `
+export const LinkHome2 = styled.p`
+background-color: black;
+color: white;
+font-size: 25px;
+padding: 15px;
+border-radius: 15px 15px 15px 15px;
+
+&:hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}`

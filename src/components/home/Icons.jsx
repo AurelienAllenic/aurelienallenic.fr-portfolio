@@ -1,5 +1,5 @@
 import React from 'react'
-import { IconsContainer, IconsPosition, Icon } from "../style/General"
+import { IconsContainer, IconsPosition, Icon } from "../../style/General"
 import { FaGithub } from "react-icons/fa"
 import { AiOutlineMail } from 'react-icons/ai'
 import { BsLinkedin } from "react-icons/bs"
