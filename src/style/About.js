@@ -27,12 +27,14 @@ color: white;
 height: auto;
 min-height: 70vh;
 width: auto;
+max-width: 30%;
 padding: 15px;
 border-radius: 10px 10px 10px 10px;
 &:hover{
-    color: ${colors.primary};
-    background-color: white;
+    background-color: transparent;
+    border: 1px solid white;
 }
+
 `
 export const AboutIcon = styled.span`
 font-size: 35px;
@@ -46,4 +48,11 @@ font-size: 25px;
 export const AboutContent = styled.p`
 font-size: 20px;
 padding-bottom: 20px;
+`
+export const AboutSecondTitleLink = styled.a`
+font-size: 25px;
+color: white;
+&:hover{
+    color: ${colors.primary};
+}
 `
