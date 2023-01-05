@@ -22,6 +22,7 @@ border-radius: 10px 10px 10px 10px;
     color: ${colors.primary};
     font-weight: 800;
     border: 1px solid ${colors.primary};
+    transform: scale(1.05);
 }
 `
 export const MainTitleCard = styled.p`

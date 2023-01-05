@@ -33,6 +33,7 @@ border-radius: 10px 10px 10px 10px;
 &:hover{
     background-color: transparent;
     border: 1px solid white;
+    transform: scale(1.05);
 }
 
 `
