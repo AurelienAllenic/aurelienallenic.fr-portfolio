@@ -3,7 +3,6 @@ import colors from "./Colors";
 
 export const ContainerAbout = styled.div`
 display: flex;
-flex-direction: column;
 justify-content: center;
 align-items: center;
 width: 100%;
@@ -12,30 +11,44 @@ height: auto;
 padding-top: 0px;
 `
 export const Cards = styled.div`
-display: flex;
-align-items:center;
-justify-content: center;
-flex-direction: row;
+display: grid;
 width: 100%;
-gap : 3rem;
+gap : 2rem;
+grid-template-columns: 1fr 1fr 1fr;
+margin-left: 200px;
+margin-right: 150px;
+@media(max-width: 1323px){
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
 `
 export const Card = styled.div`
-display: grid;
-grid-template-columns: repeat(1, 1fr);
 background-color: ${colors.primary};
 color: white;
 height: auto;
 min-height: 70vh;
 width: auto;
-max-width: 30%;
+max-width: 80%;
 padding: 15px;
 border-radius: 10px 10px 10px 10px;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+padding: 15px;
 &:hover{
     background-color: transparent;
     border: 1px solid white;
     transform: scale(1.05);
 }
-
+@media(max-width: 1323px){
+    width: 70%;
+}
 `
 export const AboutIcon = styled.span`
 font-size: 35px;

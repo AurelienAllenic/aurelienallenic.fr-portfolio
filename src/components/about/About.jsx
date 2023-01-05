@@ -1,5 +1,5 @@
 import React from 'react'
-import { ContainerAbout, Cards, Card, AboutIcon, AboutTitle, AboutSecondTitle, AboutSecondTitleLink, AboutContent } from "../../style/About"
+import { ContainerAbout, ContainerCards, Cards, Card, AboutIcon, AboutTitle, AboutSecondTitle, AboutSecondTitleLink, AboutContent } from "../../style/About"
 import { SectionTitle } from '../../style/General';
 import { FaMedal } from "react-icons/fa"
 import { BsFillPersonFill } from "react-icons/bs"

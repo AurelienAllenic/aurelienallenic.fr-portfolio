@@ -5,8 +5,7 @@ export const PositionCard = styled.div`
 display: flex;
 align-items: center;
 justify-content: center;
-padding-left: 50px;
-padding-right: 50px;
+padding: 50px;
 padding-bottom: 100px;
 `
 export const Cards = styled.div`
@@ -18,6 +17,12 @@ height: auto;
 width: 100%;
 gap: 100px;
 color: white;
+@media(max-width: 1125px){
+    grid-template-columns: 1fr 1fr;
+}
+@media(max-width: 758px){
+    grid-template-columns: 1fr;
+}
 `
 export const Card = styled.div`
 background-color: ${colors.primary};
