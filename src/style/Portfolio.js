@@ -32,8 +32,7 @@ color: white;
 &:hover{
     transform: scale(1.05);
     background-color: transparent;
-    border: 1px solid white;
-    color: ${colors.primary};
+    border: 1px solid ${colors.primary};
     font-weight: 500;
 }
 @media(max-width: 381px){

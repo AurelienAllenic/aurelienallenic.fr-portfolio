@@ -76,7 +76,6 @@ export const Icon = styled.a`
 font-size: 35px;
 margin: 10px;
 color: white;
-width: auto;
 &:hover{
     color: ${colors.primary};
 }
@@ -85,8 +84,5 @@ width: auto;
 }
 @media(max-width: 543px){
     font-size: 25px;
-}
-@media(max-width: 453px){
-    width: 200%;
 }
 `

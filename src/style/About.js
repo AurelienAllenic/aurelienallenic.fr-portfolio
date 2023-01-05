@@ -43,7 +43,7 @@ flex-direction: column;
 padding: 15px;
 &:hover{
     background-color: transparent;
-    border: 1px solid white;
+    border: 1px solid ${colors.primary};
     transform: scale(1.05);
 }
 @media(max-width: 1323px){
