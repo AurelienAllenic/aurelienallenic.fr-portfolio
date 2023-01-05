@@ -29,25 +29,25 @@ function Navbar() {
     return (
         <>
             <div className={`navbar ${showLinks ? "show-nav" : "hide-nav"}`}>
-                <Link className='navbar_logo' to='home' spy={true} smooth={true} offset={0} duration={500}>Aurélien Allenic</Link>
+                <Link className='navbar_logo' to='home' spy={true} smooth={true} offset={0} duration={800}>Aurélien Allenic</Link>
                 <ul className='navbar_links'>
                     <li className='navbar_item slideInDown-1'>
-                        <Link className='navbar_link' to='home' spy={true} smooth={true} offset={0} duration={500} onClick={handleShowLinks}>Home</Link>
+                        <Link className='navbar_link' to='home' spy={true} smooth={true} offset={0} duration={800} onClick={handleShowLinks}>Home</Link>
                     </li>
                     <li className='navbar_item slideInDown-2'>
-                        <Link className='navbar_link' to='about' spy={true} smooth={true} offset={0} duration={500} onClick={handleShowLinks}>About</Link>
+                        <Link className='navbar_link' to='about' spy={true} smooth={true} offset={0} duration={800} onClick={handleShowLinks}>About</Link>
                     </li>
                     <li className='navbar_item slideInDown-3'>
-                        <Link className='navbar_link' to='experience' spy={true} smooth={true} offset={0} duration={500} onClick={handleShowLinks}>Experience</Link>
+                        <Link className='navbar_link' to='experience' spy={true} smooth={true} offset={0} duration={800} onClick={handleShowLinks}>Experience</Link>
                     </li>
                     <li className='navbar_item slideInDown-4'>
-                        <Link className='navbar_link' to='portfolio' spy={true} smooth={true} offset={0} duration={500} onClick={handleShowLinks}>Portfolio</Link>
+                        <Link className='navbar_link' to='portfolio' spy={true} smooth={true} offset={0} duration={800} onClick={handleShowLinks}>Portfolio</Link>
                     </li>
                     <li className='navbar_item slideInDown-5'>
-                        <Link className='navbar_link' to='interests' spy={true} smooth={true} offset={0} duration={500} onClick={handleShowLinks}>Interests</Link>
+                        <Link className='navbar_link' to='interests' spy={true} smooth={true} offset={0} duration={800} onClick={handleShowLinks}>Interests</Link>
                     </li>
                     <li className='navbar_item slideInDown-6'>
-                        <Link className='navbar_link' to='contact' spy={true} smooth={true} offset={0} duration={500} onClick={handleShowLinks}>Contact</Link>
+                        <Link className='navbar_link' to='contact' spy={true} smooth={true} offset={0} duration={800} onClick={handleShowLinks}>Contact</Link>
                     </li>
                 </ul>
                 <button className='navbar_burger' onClick={handleShowLinks}>

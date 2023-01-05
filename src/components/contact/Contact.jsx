@@ -2,7 +2,7 @@ import React from 'react'
 import { Link } from "react-scroll"
 import { Parallax } from 'react-parallax';
 import HomeIMG from "../../assets/about.jpg"
-import { ContactContainer, CardsContainer, FormContainer, Cards, Card, Title, Icon, LinkContact, InputStyle, Message, Validation, GoTopContainer, GoToTop } from "../../style/Contact"
+import { ContactContainer, CardsContainer, FormContainer, Cards, Card, Title, Icon, LinkContact, InputStyle, Message, Validation, GoTopContainer, GoToTop, SpanIcon } from "../../style/Contact"
 import { SectionTitle } from '../../style/General';
 import { AiOutlineMail, AiOutlineArrowUp } from "react-icons/ai"
 import { BsChatText, BsWhatsapp } from "react-icons/bs"
@@ -51,7 +51,7 @@ const Contact = () => {
                         </CardsContainer>
                     </ContactContainer>
                     <GoTopContainer>
-                        <Link to='home' spy={true} smooth={true} offset={0} duration={500}><GoToTop href="home"><AiOutlineArrowUp /></GoToTop></Link>
+                        <Link to='home' spy={true} smooth={true} offset={0} duration={1000}><GoToTop href="home"><SpanIcon><AiOutlineArrowUp /></SpanIcon></GoToTop></Link>
                     </GoTopContainer>
                 </Parallax>
             </section>

@@ -121,15 +121,18 @@ align-items: center;
 justify-content: center;
 `
 export const GoToTop = styled.a`
-background-color: white;
+color: white;
 font-size: 55px;
-width: 70px;
-color: ${colors.primary};
+background-color: ${colors.primary};
 border-radius: 15px 15px 0px 0px;
 height: auto;
 &:hover{
-    color: white;
-    background-color: ${colors.primary};
+    
+    background-color: white;
+    color: ${colors.primary};
     cursor: pointer;
 }
+`
+export const SpanIcon = styled.span`
+padding: 15px;
 `
