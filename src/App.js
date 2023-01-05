@@ -6,6 +6,7 @@ import About from './components/about/About';
 import Experience from './components/experience/Experience';
 import Portfolio from './components/portfolio/Portfolio';
 import Interests from './components/interests/Interests';
+import Contact from './components/contact/Contact';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <Portfolio/>
         <Interests/>
         </Parallax>
+        <Contact/>
     </div>
   );
 }
