@@ -16,14 +16,13 @@ gap: 10rem;
 @media(max-width: 1111px){
     grid-template-columns: 1fr;
 }
+@media(max-width: 293px){
+    gap: 3rem;
+}
 `
 export const FormContainer = styled.form`
 display: flex;
 flex-direction: column;
-@media(max-width: 387px){
-    padding-left: 20px;
-    padding-right: 20px;
-}
 `
 export const Cards = styled.div`
 display: grid;
@@ -32,9 +31,10 @@ gap: 1rem;
 @media(max-width: 801px){
     grid-template-columns: 1fr;
 }
-@media(max-width: 387px){
+@media(max-width: 418px){
     padding-left: 20px;
     padding-right: 20px;
+    gap: 3rem;
 }
 `
 export const Card = styled.div`
@@ -47,7 +47,6 @@ align-items: center;
 justify-content: center;
 flex-direction: column;
 &:hover{
-    color: ${colors.primary};
     background-color: transparent;
     border: 1px solid ${colors.primary};
     transform: scale(1.05);
@@ -56,29 +55,36 @@ flex-direction: column;
 export const Title = styled.p`
 font-size: 30px;
 padding-bottom: 50px;
-@media(max-width: 405px){
+@media(max-width: 418px){
     font-size: 25px;
     padding-bottom: 10px;
+}
+@media(max-width: 359px){
+    font-size: 20px;
 }
 `
 export const Icon = styled.p`
 font-size: 35px;
 @media(max-width: 405px){
-    font-size: 35px;
+    font-size: 30px;
+}
+@media(max-width: 359px){
+    font-size: 20px;
 }
 `
 export const LinkContact = styled.a`
 font-size: 25px;
 color: white;
-border: 1px solid white;
 border-radius: 15px 15px 15px 15px;
 padding: 10px;
 &:hover{
-    color: ${colors.primary};
     background-color: white;
 }
 @media(max-width: 405px){
     font-size: 20px;
+}
+@media(max-width: 359px){
+    font-size: 15px;
 }
 `
 export const InputStyle = styled.input`
@@ -102,12 +108,31 @@ font-size: 25px;
     font-size: 25px;
     padding: 10px;
 }
+@media(max-width: 371px){
+    font-size: 20px;
+}
+&::placeholder{
+    font-size: 20px;
+}
+@media(max-width: 293px){
+    font-size: 17px;
+}
+&::placeholder{
+    font-size: 17px;
+}
+@media(max-width: 263px){
+    font-size: 15px;
+}
+&::placeholder{
+    font-size: 17px;
+}
 `
 export const Message = styled.textarea`
 background-color: ${colors.primary};
 margin: 10px;
 border-radius: 15px 15px 15px 15px;
 resize: none;
+border: none;
 font-size: 25px;
 padding: 15px;
 &:focus{
@@ -124,6 +149,18 @@ padding: 15px;
     font-size: 25px;
     padding: 10px;
 }
+@media(max-width: 371px){
+    font-size: 20px;
+}
+&::placeholder{
+    font-size: 20px;
+}
+@media(max-width: 293px){
+    font-size: 17px;
+}
+&::placeholder{
+    font-size: 17px;
+}
 `
 export const Validation = styled.button`
 background-color: ${colors.primary};
@@ -132,10 +169,23 @@ font-size: 25px;
 border-radius: 15px 15px 15px 15px;
 padding: 15px;
 color: white;
+border: none;
 &:hover{
     color: ${colors.primary};
     background-color: white;
     cursor: pointer;
+}
+@media(max-width: 371px){
+    font-size: 20px;
+}
+&::placeholder{
+    font-size: 20px;
+}
+@media(max-width: 293px){
+    font-size: 17px;
+}
+&::placeholder{
+    font-size: 17px;
 }
 `
 export const GoTopContainer = styled.div`
