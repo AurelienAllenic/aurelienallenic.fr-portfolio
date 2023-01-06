@@ -1,3 +1,16 @@
+@keyframes apparition {
+    0%{
+      display: none;
+      opacity: 0;
+    }
+    50%{
+      display: inherit;
+    }
+    100%{
+      opacity: 1;
+    }
+  }
+
 .navbar{
     display: flex;
     flex: wrap;
@@ -11,6 +24,7 @@
     color: #008ab3;    
     z-index: 1000;
     top: 0; 
+    animation: apparition 1s forwards;
 }
 .navbar_links{
     display: flex;

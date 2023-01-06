@@ -7,8 +7,9 @@ flex-direction: column;
 justify-content: center;
 align-items: center;
 width: 100%;
-height: 95vh;
+height: 90vh;
 padding-top: 0px;
+animation: apparition 1.5s ease-out forwards;
 `
 export const InfosContainer = styled.div`
 height: auto;
@@ -66,12 +67,9 @@ margin-top: 20px;
 `
 
 export const IconsContainer = styled.div`
-height: auto;
-position: relative;
-bottom: 20px;
-`
-export const IconsPosition = styled.div`
-
+height: 10vh;
+padding-bottom: 50px;
+animation: apparition 1.5s forwards;
 `
 export const Icon = styled.a`
 font-size: 35px;
