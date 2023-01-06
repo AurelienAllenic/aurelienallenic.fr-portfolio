@@ -7,19 +7,24 @@ padding-bottom: 100px;
 display: flex;
 align-items: center;
 justify-content: center;
+@media(max-width: 463px){
+    padding: 20px;
+}
 `
 export const Cards = styled.ul`
 display: grid;
 grid-template-columns: repeat(3, 1fr);
 gap: 5rem;
 color: white;
-  margin: 0 auto;
-  padding: 50px;
+margin: 0 auto;
 @media(max-width: 1125px){
     grid-template-columns: 1fr 1fr;
 }
 @media(max-width: 758px){
     grid-template-columns: 1fr;
+}
+@media(max-width: 463px){
+    padding: 10px;
 }
 `
 export const Card = styled.li`
@@ -33,7 +38,6 @@ color: white;
     border: 1px solid ${colors.primary};
     transform: scale(1.05);
 }
-
 `
 export const Title = styled.p`
 font-size: 30px;

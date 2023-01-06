@@ -33,7 +33,7 @@ color: white;
 height: auto;
 min-height: 70vh;
 width: auto;
-max-width: 80%;
+width: 90%;
 padding: 15px;
 border-radius: 10px 10px 10px 10px;
 display: flex;
@@ -47,7 +47,7 @@ padding: 15px;
     transform: scale(1.05);
 }
 @media(max-width: 1323px){
-    width: 70%;
+    width: 90%;
 }
 `
 export const AboutIcon = styled.span`

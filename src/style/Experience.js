@@ -16,7 +16,7 @@ padding-right: 50px;
 @media(max-width: 973px){
     grid-template-columns: repeat(1, 3fr);
 }
-@media(max-width: 350px){
+@media(max-width: 463px){
     padding-left: 20px;
     padding-right: 20px;
 }
