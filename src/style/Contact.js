@@ -82,7 +82,7 @@ color: white;
 border-radius: 15px 15px 15px 15px;
 padding: 10px;
 &:hover{
-    background-color: white;
+    background-color: ${colors.primary};
 }
 @media(max-width: 405px){
     font-size: 20px;
