@@ -15,8 +15,7 @@ display: grid;
 width: 100%;
 gap : 2rem;
 grid-template-columns: 1fr 1fr 1fr;
-margin-left: 200px;
-margin-right: 150px;
+padding: 50px;
 @media(max-width: 1323px){
     display: flex;
     justify-content: center;
@@ -25,7 +24,9 @@ margin-right: 150px;
     margin-left: 0px;
     margin-right: 0px;
 }
-
+@media(max-width: 463px){
+    padding: 20px;
+}
 `
 export const Card = styled.div`
 background-color: ${colors.primary};

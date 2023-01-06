@@ -2,23 +2,18 @@ import styled from "styled-components";
 import colors from "./Colors";
 
 export const ExperienceContainer = styled.div`
-height: auto;
-padding-top: 200px;
-padding-bottom: 200px;
 color: white;
 `
 export const Cards = styled.div`
 display: grid;
 grid-template-columns: repeat(2, 3fr);
 gap: 2rem;
-padding-left: 50px;
-padding-right: 50px;
+padding: 50px;
 @media(max-width: 973px){
     grid-template-columns: repeat(1, 3fr);
 }
 @media(max-width: 463px){
-    padding-left: 20px;
-    padding-right: 20px;
+    padding: 20px;
 }
 `
 export const Card = styled.div`

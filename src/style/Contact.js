@@ -8,6 +8,9 @@ display: flex;
 align-items: center;
 justify-content: center;
 padding: 50px;
+@media(max-width: 463px){
+    padding: 20px;
+}
 `
 export const CardsContainer = styled.div`
 display: grid;
@@ -23,6 +26,7 @@ gap: 10rem;
 export const FormContainer = styled.form`
 display: flex;
 flex-direction: column;
+padding-bottom: 150px;
 `
 export const Cards = styled.div`
 display: grid;

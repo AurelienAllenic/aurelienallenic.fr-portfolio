@@ -38,7 +38,7 @@ color: white;
 }
 @media(max-width: 381px){
     padding-left: 5px;
-padding-right : 5px;
+    padding-right : 5px;
 }
 `
 export const ImageCard = styled.img`
