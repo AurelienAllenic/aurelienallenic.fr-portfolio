@@ -7,6 +7,7 @@ import Experience from './components/experience/Experience';
 import Portfolio from './components/portfolio/Portfolio';
 import Interests from './components/interests/Interests';
 import Contact from './components/contact/Contact';
+import Navbar from './components/nav/Nav';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
 
         <Home/>
         <Parallax  bgImage={test} strength={500}>
+          <Navbar/>
         <About/>
         <Experience/>
         <Portfolio/>

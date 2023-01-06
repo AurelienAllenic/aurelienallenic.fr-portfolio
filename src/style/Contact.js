@@ -200,6 +200,7 @@ font-size: 55px;
 background-color: ${colors.primary};
 border-radius: 15px 15px 0px 0px;
 height: auto;
+padding-top: 15px;
 &:hover{
     
     background-color: white;
@@ -209,4 +210,5 @@ height: auto;
 `
 export const SpanIcon = styled.span`
 padding: 15px;
+position: relative;
 `

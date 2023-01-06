@@ -7,9 +7,16 @@ flex-direction: column;
 justify-content: center;
 align-items: center;
 width: 100%;
-min-height: 100vh;
-height: auto;
+height: 95vh;
 padding-top: 0px;
+`
+export const InfosContainer = styled.div`
+height: auto;
+margin: 10%;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items:center;
 `
 export const ButtonsContainer = styled.div`
 display: flex;
@@ -43,11 +50,7 @@ border-radius: 15px 15px 15px 15px;
 export const MainTitle = styled.p`
 font-size: 55px;
 color: white;
-display: flex;
-justify-content: center;
-align-items: center;
 font-weight: 500;
-margin-top: 50px;
 @media(max-width: 675px){
     font-size: 45px;
 }
@@ -55,9 +58,6 @@ margin-top: 50px;
 export const SecondTitle = styled.p`
 font-size: 45px;
 color: white;
-display: flex;
-justify-content: center;
-align-items: center;
 font-weight: 300;
 margin-top: 20px;
 @media(max-width: 675px){
@@ -67,10 +67,11 @@ margin-top: 20px;
 
 export const IconsContainer = styled.div`
 height: auto;
+position: relative;
+bottom: 20px;
 `
 export const IconsPosition = styled.div`
-position: absolute;
-bottom: 2%;
+
 `
 export const Icon = styled.a`
 font-size: 35px;

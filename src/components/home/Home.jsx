@@ -1,7 +1,7 @@
 import React from 'react'
 import { Parallax } from 'react-parallax';
 import HomeIMG from "../../assets/about.jpg"
-import { HomeContainer, ButtonsContainer, LinkHome, MainTitle, SecondTitle } from '../../style/Home'
+import { HomeContainer, InfosContainer, ButtonsContainer, LinkHome, MainTitle, SecondTitle } from '../../style/Home'
 import NavHome from '../nav/Nav';
 import Icons from './Icons';
 import CV from "../../assets/CV.pdf"
@@ -13,16 +13,17 @@ const Home = () => {
             <section id='home'>
                 <Parallax className='img-home' bgImage={HomeIMG} strength={500}>
                     <HomeContainer>
-                        <MainTitle>Aurélien Allenic</MainTitle>
-                        <SecondTitle>Web Developper</SecondTitle>
-                        <ButtonsContainer>
-                            <LinkHome href={CV} download>Download CV</LinkHome>
-                            <LinkHome href={Motivation}>Motivation letter</LinkHome>
-                            <LinkHome href="/contact">Contact me</LinkHome>
-                        </ButtonsContainer>
-                    </HomeContainer>
-                    <NavHome />
-                    <Icons />
+                        <InfosContainer>
+                            <MainTitle>Aurélien Allenic</MainTitle>
+                            <SecondTitle>Web Developper</SecondTitle>
+                            <ButtonsContainer>
+                                <LinkHome href={CV} download>Download CV</LinkHome>
+                                <LinkHome href={Motivation}>Motivation letter</LinkHome>
+                                <LinkHome href="/contact">Contact me</LinkHome>
+                            </ButtonsContainer>
+                        </InfosContainer>
+
+                    </HomeContainer><Icons />
                 </Parallax>
             </section>
         </>
