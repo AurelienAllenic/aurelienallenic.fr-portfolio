@@ -13,7 +13,7 @@ const Portfolio = () => {
         {
             id: 1,
             image: Booki,
-            title: 'Booki, projet de réservation hôtelier réalisé en HTML/CSS',
+            title: 'Booki, projet de site de réservation hôtelier réalisé en HTML/CSS',
             github: 'https://github.com/AurelienAllenic/Booki',
             demo: 'https://aurelienallenic.github.io/Booki/'
         },
@@ -34,7 +34,7 @@ const Portfolio = () => {
         {
             id: 4,
             image: Kanap,
-            title: 'Kanap, site e-commerce réalisé javaScript HTML, CSS',
+            title: 'Kanap, site e-commerce réalisé en javaScript HTML, CSS',
             github: 'https://github.com/AurelienAllenic/kanap-p5-openclassrooms',
             demo: 'https://github.com/AurelienAllenic/kanap-p5-openclassrooms'
         },

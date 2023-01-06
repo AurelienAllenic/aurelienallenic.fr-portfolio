@@ -30,16 +30,16 @@ const Contact = () => {
                             <Cards>
                                 <Card><Icon><AiOutlineMail /></Icon>
                                     <Title>Email</Title>
-                                    <LinkContact href="/">Send a message</LinkContact>
+                                    <LinkContact href="mailto:aurelien.allenic@gmail.com">Send a message</LinkContact>
                                 </Card>
                                 <Card><Icon><BsChatText /></Icon>
                                     <Title>Messenger</Title>
-                                    <LinkContact href="/">Send a message</LinkContact>
+                                    <LinkContact href="https://www.facebook.com/profile.php?id=100008646846896">Send a message</LinkContact>
                                 </Card>
                                 <Card>
                                     <Icon><BsWhatsapp /></Icon>
                                     <Title>Whattsapp</Title>
-                                    <LinkContact href="/">Send a message</LinkContact>
+                                    <LinkContact href="https://wa.me/33783013682">Send a message</LinkContact>
                                 </Card>
                             </Cards>
                             <FormContainer ref={form} onSubmit={sendEmail}>

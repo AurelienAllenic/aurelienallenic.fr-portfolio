@@ -22,8 +22,8 @@ const Home = () => {
                                 <LinkHome href="/contact">Contact me</LinkHome>
                             </ButtonsContainer>
                         </InfosContainer>
+                        <Icons />
                     </HomeContainer>
-                    <Icons />
                 </Parallax>
             </section>
         </>

@@ -26,7 +26,7 @@ gap: 10rem;
 export const FormContainer = styled.form`
 display: flex;
 flex-direction: column;
-padding-bottom: 150px;
+padding-bottom: 100px;
 `
 export const Cards = styled.div`
 display: grid;

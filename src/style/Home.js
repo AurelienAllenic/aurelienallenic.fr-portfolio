@@ -7,13 +7,13 @@ flex-direction: column;
 justify-content: center;
 align-items: center;
 width: 100%;
-height: auto;
+height: 100vh;
 padding-top: 0px;
 animation: apparition 1.5s ease-out forwards;
 `
 export const InfosContainer = styled.div`
 height: auto;
-margin: 10%;
+margin: 20%;
 display: flex;
 flex-direction: column;
 justify-content: center;
@@ -36,6 +36,9 @@ font-size: 25px;
     gap: 1rem;
     font-size: 17px;
 }
+@media(max-width: 420px){
+    font-size: 16px;
+}
 `
 export const LinkHome = styled.a`
 background-color: black;
@@ -57,6 +60,9 @@ padding-top: 50px;
     font-size: 45px;
     padding-top: 100px;
 }
+@media(max-width: 420px){
+    font-size: 35px;
+}
 `
 export const SecondTitle = styled.p`
 font-size: 45px;
@@ -66,11 +72,13 @@ margin-top: 20px;
 @media(max-width: 675px){
     font-size: 35px;
 }
+@media(max-width: 420px){
+    font-size: 25px;
+}
 `
 export const IconsContainer = styled.div`
 height: auto;
 padding-bottom: 100px;
-padding-top: 50px;
 animation: apparition 1.5s forwards;
 `
 export const Icon = styled.a`
