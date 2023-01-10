@@ -13,7 +13,7 @@ animation: apparition 1.5s ease-out forwards;
 `
 export const InfosContainer = styled.div`
 height: auto;
-margin: 20%;
+margin: 15%;
 display: flex;
 flex-direction: column;
 justify-content: center;
