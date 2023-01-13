@@ -7,13 +7,13 @@ flex-direction: column;
 justify-content: center;
 align-items: center;
 width: 100%;
-height: 100vh;
-padding-top: 0px;
+height: auto;
+min-height: 100vh;
 animation: apparition 1.5s ease-out forwards;
 `
 export const InfosContainer = styled.div`
 height: auto;
-margin: 15%;
+margin: 10%;
 display: flex;
 flex-direction: column;
 justify-content: center;
@@ -55,7 +55,6 @@ export const MainTitle = styled.p`
 font-size: 55px;
 color: white;
 font-weight: 500;
-padding-top: 50px;
 @media(max-width: 675px){
     font-size: 45px;
     padding-top: 100px;
@@ -78,7 +77,7 @@ margin-top: 20px;
 `
 export const IconsContainer = styled.div`
 height: auto;
-padding-bottom: 100px;
+margin-bottom: 100px;
 animation: apparition 1.5s forwards;
 `
 export const Icon = styled.a`

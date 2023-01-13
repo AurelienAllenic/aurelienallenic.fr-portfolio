@@ -44,3 +44,6 @@ ul{
 .animation-apparition{
   animation: apparition 1s forwards;
 }
+.toast-message{
+  font-size: 35px;
+}

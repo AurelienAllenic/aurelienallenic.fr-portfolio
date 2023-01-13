@@ -8,6 +8,9 @@ import { AiOutlineMail, AiOutlineArrowUp } from "react-icons/ai"
 import { BsChatText, BsWhatsapp } from "react-icons/bs"
 import { useRef } from 'react'
 import emailjs from 'emailjs-com'
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+import "../../index.css"
 
 const Contact = () => {
     const form = useRef();
@@ -17,7 +20,9 @@ const Contact = () => {
         emailjs.sendForm('service_ohqoijk', 'template_w9q6vir', form.current, 'dWzWUkYBQ9ERFSUxC')
 
         e.target.reset();
-        alert('message envoyé')
+        toast.success('Message envoyé !', {
+            className: "toast-message"
+        })
 
     };
     return (
@@ -43,6 +48,7 @@ const Contact = () => {
                                 </Card>
                             </Cards>
                             <FormContainer ref={form} onSubmit={sendEmail}>
+                                <ToastContainer />
                                 <InputStyle id='name' type="text" name='name' placeholder='Your full name' required ></InputStyle>
                                 <InputStyle id='email' type="email" name='email' placeholder='Your Email' required ></InputStyle>
                                 <Message id='textarea' name="message" placeholder='Your message' rows="7" required ></Message>
