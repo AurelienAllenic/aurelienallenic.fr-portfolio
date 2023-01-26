@@ -51,6 +51,17 @@ border-radius: 15px 15px 15px 15px;
     cursor: pointer;
 }
 `
+export const LinkHome2 = styled.div`
+background-color: black;
+color: white;
+padding: 15px;
+border-radius: 15px 15px 15px 15px;
+&:hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+`
 export const MainTitle = styled.p`
 font-size: 55px;
 color: white;
