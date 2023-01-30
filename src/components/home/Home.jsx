@@ -20,8 +20,7 @@ const Home = () => {
                             <ButtonsContainer>
                                 <LinkHome href={CV} download>Download CV</LinkHome>
                                 <LinkHome href={Motivation}>Motivation letter</LinkHome>
-                                <LinkHome2><Link className='navbar_link' to='contact' spy={true} smooth={true} offset={0} duration={800}>Contact</Link></LinkHome2>
-
+                                <LinkHome href="#contact">Contact</LinkHome>
                             </ButtonsContainer>
                         </InfosContainer>
                         <Icons />
